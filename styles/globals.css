@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-7 py-2 cursor-pointer font-black text-pink-500  border border-pink-600 rounded hover:bg-pink-700 hover:text-white ease-in duration-150;
+  }
+}
+
+@layer utilities {
+  @font-face {
+    font-family: "MuseoSans";
+    src: local("MuseoSansRounded300.otf"), url(/fonts/MuseoSansRounded300.otf);
+  }
+}
+
+@layer utilities {
+  :root {
+    --primary: #22c422;
+    --primary-light: #32ce32;
+  }
+}

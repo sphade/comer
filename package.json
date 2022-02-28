@@ -1,0 +1,28 @@
+{
+  "name": "fatllama-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "@splidejs/react-splide": "^0.6.20",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-headless-tabs": "^4.0.2",
+    "react-query": "^3.34.16",
+    "react-slick": "^0.28.1",
+    "react-tabs": "^3.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  }
+}
