@@ -11,7 +11,7 @@ function Banner() {
         <img
           src="/assets/b5.gif"
           alt="Image 1"
-          className="w-screen object-cover h-[300px] md:h-[450px]"
+          className="w-screen object-cover h-[150px] md:h-[350px]"
         />
       </SplideSlide>
 
@@ -19,7 +19,7 @@ function Banner() {
         <img
           src="/assets/b2.jpg"
           alt="Image 1"
-          className="w-screen object-cover h-[300px] md:h-[450px]"
+          className="w-screen object-cover h-[150px] md:h-[350px]"
         />
       </SplideSlide>
 
@@ -27,7 +27,7 @@ function Banner() {
         <img
           src="/assets/b4.jpg"
           alt="Image 1"
-          className="w-screen object-cover h-[300px] md:h-[450px]"
+          className="w-screen object-cover h-[150px] md:h-[350px]"
         />
       </SplideSlide>
     </Splide>
