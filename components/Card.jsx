@@ -8,7 +8,9 @@ const Card = ({ image, price, title }) => {
         <Image src={image} alt="eeee" layout="fill" />
       </div>
       <div className="divide-y-2 space-y-2 px-2 py-3 md:py-0">
-        <p className="uppercase text-xs md:text-sm font-black">{title}</p>
+        <p className="uppercase text-xs md:text-sm font-black">
+          {title.slice(0, 10)}
+        </p>
         <p className="md:text-base text-xs">from {price} / day</p>
       </div>
     </div>

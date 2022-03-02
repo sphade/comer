@@ -12,7 +12,12 @@ const Card3 = ({ cat }) => {
   );
 
   if (!data) {
-    return  <div className="w-full flex items-center justify-center">  <ClipLoader  size={150} /></div>  
+    return (
+      <div className="w-full flex items-center justify-center">
+        {" "}
+        <ClipLoader size={150} />
+      </div>
+    );
   }
   if (error) {
     return <div>there was an error</div>;
