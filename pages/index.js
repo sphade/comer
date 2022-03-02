@@ -9,14 +9,16 @@ import {
 import Head from "next/head";
 import Image from "next/image";
 import Banner from "../components/Banner";
+import Card2 from "../components/Card2";
 import Footer from "../components/Footer";
 
 import Header from "../components/Header";
+import JewerySec from "../components/JewerySec";
+import ProductE from "../components/ProductE";
 import Sliders from "../components/Slider";
 import Tbs from "../components/Tbs";
 export default function Home() {
-  return (
-    <div className="">
+  return (    <div className="">
       <Head>
         <title>Fat Llama | Rent (almost) anything</title>
         <meta
@@ -26,17 +28,11 @@ export default function Home() {
         <link rel="icon" href="/assets/28BOOKINGS.png" />
       </Head>
 
-      <main className="">
+      <main>
         <Banner />
-        <div className="md:px-10 px-5 space-y-4 after:w-[150px] after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
-          <h1 className="text-lg md:text-3xl font-black capitalize">
-            Lagosians are loving these products
-          </h1>
-          <p className="hidden md:block">
-            Well-sanitised, good quality products at just 1% of their MRP
-          </p>
-        </div>
+        <ProductE />
         <Sliders />
+        <JewerySec/>
 
         <div className="mt-[100px] text-center">
           <div className="space-y-4 after:w-[150px] after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
@@ -175,18 +171,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
-          <div className="space-y-4 mt-[100px] mb-[50px] after:w-[150px] text-center after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
-            <h1 className="text-lg md:text-3xl font-black capitalize ">
-              Brands that rents from us{" "}
-            </h1>
-          </div>
-          <div className="min-h-[500px] bg-gray-300 flex items-center justify-center">
-            <h1 className="text-lg md:text-3xl text-gray-100 font-black capitalize ">
-              Coming soon.....
-            </h1>
-          </div>
-        </div>
+       
 
         <div className="text-center space-y-14 mt-[100px]">
           <h1 className="text-3xl text-gray-700 font-black">
@@ -220,3 +205,4 @@ export default function Home() {
     </div>
   );
 }
+

@@ -1,35 +1,44 @@
-import { PhoneIcon } from "@heroicons/react/outline";
+import {
+  InformationCircleIcon,
+  MenuIcon,
+  PhoneIcon,
+  ShoppingCartIcon,
+  UserIcon,
+} from "@heroicons/react/outline";
 import React from "react";
 import Input from "./Input";
+import SecondHeader from "./SecondHeader";
 
 function Header() {
   return (
-    <div  className="bg-white sticky z-10 left-0 top-0">
-     
+    <div className=" sticky bg-white z-10 left-0 top-0 shadow-md">
       <div>
         <div className="h-16 px-5 flex items-center justify-between ">
-          <span className=" text-lg text-purple-800 font-black">
-            Fake Store
+          <span className="  text-primary text-3xl font-black flex-1">
+            Fake-Store
           </span>
           <Input />
-          <button className="btn hidden ">Login, Signup</button>
-        </div>
+          <div className="md:flex hidden items-center flex-1 justify-around">
+          <p className="header-icon">
+            <UserIcon className="h-5 w-5 " />
+            <span>Account</span>
+          </p>
 
-        <div className="border flex item-center justify-between px-5 py-2 shadow">
-          <ul className=" items-center hidden md:flex space-x-10 capitalize ">
-            <li className="cursor-pointer">cameras</li>
-            <li className="cursor-pointer">gaming</li>
-            <li className="cursor-pointer">entertainment</li>
-            <li className="cursor-pointer">electronic</li>
-            <li className="cursor-pointer">computers</li>
-          </ul>
+          <p className="header-icon">
+            <InformationCircleIcon className="h-5 w-5 " />
+            <span>Help</span>
+          </p>
 
-          <div className="flex items-center">
-            <PhoneIcon className="h-5 w-5" />
-            07049723597
+          <p className="header-icon">
+            <ShoppingCartIcon className="h-5 w-5 " />
+
+            <span>Cart</span>
+          </p>
           </div>
+          
         </div>
       </div>
+      <SecondHeader/>
     </div>
   );
 }
