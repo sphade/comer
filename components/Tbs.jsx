@@ -21,10 +21,10 @@ const Tbs = () => {
     return <div>error occured</div>;
   }
   return (
-    <Tabs selectedTabClassName="border outline-red-100 bg-red-500 rounded-full text-white">
+    <Tabs selectedTabClassName="border outline-red-100 bg-red-500 text-xs rounded-full text-white">
       <TabList className="my-6 mx-5  flex flex-row space-x-3 items-center ">
         {data.map((name) => (
-          <Tab>{name}</Tab>
+          <Tab >{name}</Tab>
         ))}
       </TabList>
       {data.map((name) => (

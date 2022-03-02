@@ -19,7 +19,7 @@ const Card3 = ({ cat }) => {
   }
   return (
     <div>
-      <div className="flex flex-wrap max-w-7xl mx-auto  justify-between mt-[50px]">
+      <div className="flex flex-wrap max-w-7xl mx-auto  justify-around  mt-[50px]">
         {data.map(({ image, category, price, title, description, id }) => (
           <Card2 key={id} img={image} title={title} price={price} />
         ))}

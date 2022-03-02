@@ -14,7 +14,7 @@ function Header() {
     <div className=" sticky bg-white z-10 left-0 top-0 shadow-md">
       <div>
         <div className="h-16 px-5 flex items-center justify-between ">
-          <span className="  text-primary text-3xl font-black flex-1">
+          <span className="  text-primary md:text-3xl font-black flex-1">
             Fake-Store
           </span>
           <Input />

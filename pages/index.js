@@ -18,7 +18,8 @@ import ProductE from "../components/ProductE";
 import Sliders from "../components/Slider";
 import Tbs from "../components/Tbs";
 export default function Home() {
-  return (    <div className="">
+  return (
+    <div className="">
       <Head>
         <title>Fat Llama | Rent (almost) anything</title>
         <meta
@@ -32,12 +33,12 @@ export default function Home() {
         <Banner />
         <ProductE />
         <Sliders />
-        <JewerySec/>
+        <JewerySec />
 
         <div className="mt-[100px] text-center">
           <div className="space-y-4 after:w-[150px] after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
             <h1 className="text-lg md:text-3xl font-black capitalize">
-              Here’s everything you can do on mutterfly.
+              Here’s everything you can do on Fake Store.
             </h1>
             <p className="hidden md:block">
               Maximise experiences, Minimise cost.
@@ -85,37 +86,6 @@ export default function Home() {
         </div>
 
         <div className="mt-[100px] md:px-10 px-5">
-          <div className="space-y-4 after:w-[150px] text-center after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
-            <h1 className="text-lg md:text-3xl font-black capitalize ">
-              Featured in
-            </h1>
-          </div>
-          <div className="grid mt-[50px] grid-cols-4 gap-14 max-w-3xl place-items-center mx-auto">
-            <Image
-              src="/assets/bbc-news-logo.png"
-              alt=""
-              height={100}
-              width={200}
-            />
-            <Image
-              src="/assets/forbes-logo.png"
-              alt=""
-              height={100}
-              width={200}
-            />
-            <Image
-              src="/assets/tech-crunch-logo.png"
-              alt=""
-              height={100}
-              width={200}
-            />
-            <Image
-              src="/assets/times-logo.png"
-              alt=""
-              height={100}
-              width={200}
-            />
-          </div>
           <div className="flex items-center justify-center md:justify-between mt-[200px] flex-wrap md:flex-nowrap">
             <div className="space-y-4 after:w-[150px]  after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
               <h1 className="text-lg md:text-3xl font-black capitalize ">
@@ -135,8 +105,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" py-[70px] bg-purple-400 bg-no-repeat bg-cover mt-[100px]">
-          <h1 className="text-center font-black text-4xl text-purple-300 mb-[50px]">
+        <div className=" py-[70px] bg-primary bg-no-repeat bg-cover mt-[100px]">
+          <h1 className="text-center font-black text-4xl text-primary_light mb-[50px]">
             mutter away...
           </h1>
           <div className="text-white flex  justify-evenly flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0 text-center">
@@ -171,38 +141,35 @@ export default function Home() {
           </div>
         </div>
 
-       
-
         <div className="text-center space-y-14 mt-[100px]">
           <h1 className="text-3xl text-gray-700 font-black">
             But, why the name
           </h1>
-          <h1 className="text-3xl  md:text-8xl font-black text-purple-600">
-            Mutterfly?
+          <h1 className="text-3xl  md:text-8xl font-black text-primary">
+            Fake Store?
           </h1>
           <p className="font-black text-gray-800 max-w-[550px] mx-auto">
-            Here’s the secret! Mutterfly is a play on the word butterfly, which
+            Here’s the secret! Fake Store is a play on the word butterfly, which
             doesn’t travel far in search of resources. So why should we humans?
-            The next time you need something on demand, don't Mutter but
-            Mutterfly it in 3 steps .
+            The next time you need something on demand, don't Mutter but Fake
+            Store it in 3 steps .
           </p>
-          <div className="btn  max-w-[150px] mx-auto">Read More</div>
+          <div className="btn   mx-auto"> More</div>
         </div>
         <div className="min-h-[200px] py-[50px] mt-[100px] space-y-5 w-full bg-[url(/assets/asset18.png)] bg-no-repeat bg-cover rounded-lg flex flex-col items-center justify-center">
           <div className="space-y-4 after:w-[150px] text-center after:h-1 after:inline-block after:bg-red-600 af after:-bottom-6 relative">
-            <h1 className="text-lg md:text-3xl text-white font-black capitalize ">
-              Switch from Buy to Mutterfly?
+            <h1 className="text-lg md:text-3xl text-primary font-black capitalize ">
+              Switch from Buy to Fake Store?
             </h1>
           </div>
-          <p className="text-white">
-            itch from Buy to Mutterfly? It is time to own less & experience
+          <p className="text-primary_light">
+            itch from Buy to Fake Store? It is time to own less & experience
             more.
           </p>
-          <div className="btn bg-white">chat with us</div>
+          <div className="btn ">chat with us</div>
         </div>
       </main>
       <Footer />
     </div>
   );
 }
-
