@@ -21,10 +21,10 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Fat Llama | Rent (almost) anything</title>
+        <title>fake store | Rent anything</title>
         <meta
           name="description"
-          content="Fat Llama is the trusted marketplace for renting almost anything. Rent out your stuff to earn extra money or rent from others to save, experience more and help the planet."
+          content="Manuel test"
         />
         <link rel="icon" href="/assets/28BOOKINGS.png" />
       </Head>
