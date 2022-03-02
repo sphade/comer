@@ -29,12 +29,12 @@ const Tbs = () => {
   }
   return (
     <Tabs selectedTabClassName="border outline-red-100 bg-red-500 text-xs rounded-full text-white">
-      <TabList className="my-6 mx-5  flex flex-row space-x-3 items-center ">
-        {data.map((name) => (
+      <TabList className="my-6 mx-5  flex flex-row space-x-1 md:space-x-3 items-center ">
+        {data.slice(0, 3).map((name) => (
           <Tab>{name}</Tab>
         ))}
       </TabList>
-      {data.slice(0, 2).map((name) => (
+      {data.map((name) => (
         <TabPanel>
           <Card3 cat={name} />
         </TabPanel>
