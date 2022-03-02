@@ -18,7 +18,7 @@ const Slider = () => {
     return <div>there was an error</div>;
   }
   return (
-    <div className="max-w-9xl mx-auto px-5 py-2 bg-white">
+    <div className="max-w-9xl mx-auto md:px-5 py-2 bg-white">
       <Splide
         options={{
           rewind: true,
