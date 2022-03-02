@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { useState } from "react";
 import { ClipLoader } from "react-spinners";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
